@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { RotatingTriangles } from "react-loader-spinner";
+import { Navigate } from "react-router";
 
 // API 設定
 const API_BASE = import.meta.env.VITE_API_BASE;
